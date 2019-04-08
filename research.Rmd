@@ -1,0 +1,101 @@
+---
+title: "Research"
+---
+
+<br>
+
+# {.tabset .tabset-fade .tabset-pills} 
+
+## Recent
+
+### <a href="files/YotamShemTov_JMP.pdf" target="_blank"> Does Incarceration Increase Crime? (**Job Market Paper**) </a> 
+#### (with <a href="https://ekrose.github.io/" target="_blank">Evan K. Rose</a>)
+
+This paper studies the causal effect of incarceration on reoffending using discontinuities in
+state sentencing guidelines and two decades of administrative records from North Carolina. A
+regression discontinuity analysis shows that one year of incarceration reduces the likelihood of
+committing new assault, property, and drug offenses within three years of conviction by 38%,
+24%, and 20%, respectively. Incarceration sentences temporarily incapacitate offenders by
+removing them from society but can also influence post-release criminal behavior. To parse
+the non-linear and heterogeneous effects of these channels, we develop an econometric model of
+sentencing length and recidivism. Our model allows for Roy-style selection into sentencing on
+the basis of latent criminality. We propose a two-step control function estimator of the model
+parameters and show that our estimates accurately reproduce the reduced form effects of
+the sentencing discontinuities we study. Our parameter estimates indicate that incarceration
+has modest crime-reducing behavioral effects that are diminishing in incarceration length.
+A cost-benefit analysis suggests, however, that the benefit of reducing crime by lengthening
+sentences (through both incapacitation and behavioral channels) is outweighed by the large
+fiscal costs of incarceration.
+
+---
+
+<!-- --- -->
+
+### <a href="https://drive.google.com/file/d/1agkUuMjtPIPoQlgQEel3tVVofs2WFVsA/view" target="_blank"> The Effects of Teacher Quality on Criminal Behavior </a> 
+####(with  <a href="https://ekrose.github.io/" target="_blank">Evan K. Rose</a> and <a href="https://sites.google.com/view/jonathanschellenberg/" target="_blank">Jonathan Schellenberg</a>)
+
+This paper investigates the impact of teacher quality on future criminal behavior. Using a unique data set linking the universe of public school records to administrative criminal justice records for the state of North Carolina, we demonstrate strong associations between future criminal activity and early life education outcomes including test scores, attendance, and disciplinary records. We estimate value-added models measuring the causal impacts of teachers on short-run cognitive and non-cognitive outcomes in a multivariate random effects framework, and link these short-run effects to teacher effects on adult crime. We find that teachers primarily influence future crime through a non-cognitive channel, and that their cognitive and non-cognitive impacts are orthogonal. This result implies that test score-based measures miss an important component of the social value of teacher quality, suggesting scope for improved teacher assessment systems that also account for non-cognitive gains.
+
+---
+
+<!-- --- -->
+
+### <a href="files/Shemtov_indigent_2018.pdf" target="_blank">Make or Buy? The Provision of Indigent Defense Services in the U.S. </a> 
+#### <a href="https://www.capolicylab.org/comparing-criminal-defense-brief/"target="_blank">Policy Brief by the California Policy Lab</a> 
+
+
+
+U.S. courts provide constitutionally mandated legal services to low-income defendants via private court-appointed attorneys and public defenders’ organizations. This paper investigates the relative efficacy of these two modes of indigent defense by comparing outcomes of co-defendants assigned either a public defender or a private court-appointed attorney within the same case. Using data from San Francisco and federal district courts, I find that in multiple defendant cases public defender assignment is plausibly as good as random. Public defenders reduce the probability of any prison sentence by 22% and the length of prison by 10%.
+
+---
+
+### <a href="https://arxiv.org/abs/1708.02140" target="_blank">Inference on a New Class of Sample Average Treatment Effects</a>
+#### (with <a href="http://sekhon.berkeley.edu/" target="_blank">Jasjeet S. Sekhon</a>) *R&R at Journal of the American Statistical Association*
+
+We derive new variance formulas for inference on a general class of estimands of causal average treatment effects in a Randomized Control Trial (RCT). We generalize Robins (1988) and show that when the estimand of interest is the Sample Average Treatment Effect of the Treated (SATT or SATC for controls), a consistent variance estimator exists. Although these estimands are equal to the Sample Average Treatment Effect (SATE) in expectation, potentially large differences in both accuracy and coverage can occur by the change of estimand, even asymptotically. Inference on the SATE, even using a conservative confidence interval, provides incorrect coverage of the SATT or SATC. We derive the variance and limiting distribution of a new and general class of estimands---any mixing between SATT and SATC---for which the SATE is a specific case. We demonstrate the applicability of the new theoretical results using Monte-Carlo simulations and an empirical application with hundreds of online experiments with an average sample size of approximately one hundred million observations per experiment. An R package, estCI, that implements all the proposed estimation procedures is available. 
+<!-- https://github.com/yotamshemtov/estCI -->
+
+---
+
+### <a href="https://arxiv.org/abs/1611.06408" target="_blank">The Classification Permutation Test: A Non-Parametric Test for Equality of Multivariate Distributions</a>
+####(with <a href="http://dept.stat.lsa.umich.edu/~johanngb/" target="_blank">Johann Gagnon-Bartsch</a>) *Forthcoming at The Annals of Applied Statistics*
+
+The gold standard for identifying causal relationships is a randomized controlled experiment.
+In many applications in the social sciences and medicine, the researcher does not control the assignment mechanism and instead may rely upon natural experiments or matching methods as a substitute to experimental randomization. 
+The standard testable implication of random assignment is covariate balance between 
+the treated and control units.  Covariate balance is therefore commonly used to validate the claim of as good as random assignment. We propose a new nonparametric test of covariate balance.  Our Classification Permutation Test (CPT) is based on a combination of classification methods (e.g. random forests) with Fisherian permutation inference.  The CPT is guaranteed to have correct coverage and is consistent under weak assumptions on the chosen classifier. We revisit four real data examples and present Monte Carlo power simulations to demonstrate the applicability of the CPT relative to other nonparametric tests of equality of multivariate distributions.
+
+---
+
+## Past
+
+### <a href="http://www.sciencedirect.com/science/article/pii/S0165176515003705" target="_blank">A note on fairness and personalised pricing</a>
+#### (with Nir Vulkan) 
+#### Economics Letters, 2015.
+
+---
+
+### <a href="https://link.springer.com/article/10.1007/s11187-014-9619-8" target="_blank">Entrepreneurs' Negotiation Behavior</a>
+#### (with Sabrina Artinger and Nir Vulkan) 
+#### Small Business Economics, 2015.
+
+---
+
+### <a href="https://link.springer.com/article/10.1007/s10797-014-9335-y" target="_blank">International Tax Competition: Zero Tax Rate at the Top Re-Established</a>                                            
+#### (with Tomer Blumkin and Efraim Sadka) 
+#### International Tax and Public Finance, 2015.     
+
+---
+
+### <a href="http://www.sciencedirect.com/science/article/pii/S0165176513002413" target="_blank">A Case for Maximum Wage</a>
+#### (with Tomer Blumkin and Efraim Sadka) 
+#### Economics Letters, 2013.
+
+---
+
+ <!-- <a href="trilnick2014whatdrives.pdf" target="_blank">draft-<i class="fa fa-file-pdf-o" aria-hidden="true"></i></a> -->
+
+
+
+
+

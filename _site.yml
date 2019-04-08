@@ -1,0 +1,38 @@
+name: "Yotam Shem-Tov"
+navbar:
+  title: "Yotam Shem-Tov"
+  left:
+    - text: "" #"Home"
+      icon: fa-home
+      href: index.html
+    #- text: "About me"
+    #  href: about.html
+    - text: "Research"
+      href: research.html
+    - text: "Teaching"
+      href: teaching.html
+    - text: "Software"
+      href: software.html
+    - text: "Contact"
+      href: contact.html
+output_dir: "."
+output:
+  html_document:
+    theme: flatly
+    highlight: textmate
+    include:
+      after_body: footer.html
+      in_header: track_google.html
+    css: styles.css
+    
+
+
+# Notes:
+# 1. Install r markdown
+# 2. For more themes add "rmdformats"
+
+
+
+
+
+

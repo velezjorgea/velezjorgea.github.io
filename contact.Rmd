@@ -1,0 +1,47 @@
+---
+title: "Contact"
+# output: html_document
+# css: test.css
+---
+
+<br><br>
+
+### **Email**: shemtov@berkeley.edu \
+
+<br><br>
+
+### **Mailing Address**:  \
+University of California, Berkeley \
+Department of Economics \
+530 Evans Hall, #3880 \
+Berkeley, CA 94720-3880 \
+
+
+
+<!-- First Header  |  -->
+<!-- ------------- | ------------- -->
+<!-- <!-- <div style="width:300px; height:200px"> ![](files/yotam.jpg) </div>  | Content Cell --> 
+<!-- <!-- include_graphics("files/yotam.png")  | Content Cell --> 
+<!-- ![](files/yotam.jpg)  | ### Content Cell aasas -->
+
+<!-- <br><br> -->
+
+<!-- ### **Mailing Address**:  \ -->
+<!-- University of California, Berkeley \ -->
+<!-- Department of Economics \ -->
+<!-- 530 Evans Hall, #3880 \ -->
+<!-- Berkeley, CA 94720-3880 \ -->
+
+<!-- ### **Mailing Address**:  \ -->
+<!-- University of California, Berkeley \ -->
+<!-- Department of Economics \ -->
+<!-- 530 Evans Hall, #3880 \ -->
+<!-- Berkeley, CA 94720-3880 \ -->
+
+<!-- ### **Mailing Address**:  \ -->
+<!-- University of California, Berkeley \ -->
+<!-- Department of Economics \ -->
+<!-- 530 Evans Hall, #3880 \ -->
+<!-- Berkeley, CA 94720-3880 \ -->
+
+

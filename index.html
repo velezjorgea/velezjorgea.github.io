@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+
+<meta charset="utf-8" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="generator" content="pandoc" />
+
+
+
+
+<title>Jorge Andrés Vélez</title>
+
+<script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link href="site_libs/bootstrap-3.3.5/css/flatly.min.css" rel="stylesheet" />
+<script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<script src="site_libs/navigation-1.1/tabsets.js"></script>
+<link href="site_libs/highlightjs-9.12.0/textmate.css" rel="stylesheet" />
+<script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
+<link href="site_libs/font-awesome-5.0.13/css/fa-svg-with-js.css" rel="stylesheet" />
+<script src="site_libs/font-awesome-5.0.13/js/fontawesome-all.min.js"></script>
+<script src="site_libs/font-awesome-5.0.13/js/fa-v4-shims.min.js"></script>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-110538499-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-110538499-1');
+</script>
+
+<style type="text/css">code{white-space: pre;}</style>
+<style type="text/css">
+  pre:not([class]) {
+    background-color: white;
+  }
+</style>
+<script type="text/javascript">
+if (window.hljs) {
+  hljs.configure({languages: []});
+  hljs.initHighlightingOnLoad();
+  if (document.readyState && document.readyState === "complete") {
+    window.setTimeout(function() { hljs.initHighlighting(); }, 0);
+  }
+}
+</script>
+
+
+
+<style type="text/css">
+h1 {
+  font-size: 34px;
+}
+h1.title {
+  font-size: 38px;
+}
+h2 {
+  font-size: 30px;
+}
+h3 {
+  font-size: 24px;
+}
+h4 {
+  font-size: 18px;
+}
+h5 {
+  font-size: 16px;
+}
+h6 {
+  font-size: 12px;
+}
+.table th:not([align]) {
+  text-align: left;
+}
+</style>
+
+<link rel="stylesheet" href="styles.css" type="text/css" />
+
+</head>
+
+<body>
+
+<style type = "text/css">
+.main-container {
+  max-width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+}
+code {
+  color: inherit;
+  background-color: rgba(0, 0, 0, 0.04);
+}
+img {
+  max-width:100%;
+  height: auto;
+}
+.tabbed-pane {
+  padding-top: 12px;
+}
+.html-widget {
+  margin-bottom: 20px;
+}
+button.code-folding-btn:focus {
+  outline: none;
+}
+</style>
+
+
+<style type="text/css">
+/* padding for bootstrap navbar */
+body {
+  padding-top: 60px;
+  padding-bottom: 40px;
+}
+/* offset scroll position for anchor links (for fixed navbar)  */
+.section h1 {
+  padding-top: 65px;
+  margin-top: -65px;
+}
+
+.section h2 {
+  padding-top: 65px;
+  margin-top: -65px;
+}
+.section h3 {
+  padding-top: 65px;
+  margin-top: -65px;
+}
+.section h4 {
+  padding-top: 65px;
+  margin-top: -65px;
+}
+.section h5 {
+  padding-top: 65px;
+  margin-top: -65px;
+}
+.section h6 {
+  padding-top: 65px;
+  margin-top: -65px;
+}
+</style>
+
+<script>
+// manage active state of menu based on current page
+$(document).ready(function () {
+  // active menu anchor
+  href = window.location.pathname
+  href = href.substr(href.lastIndexOf('/') + 1)
+  if (href === "")
+    href = "index.html";
+  var menuAnchor = $('a[href="' + href + '"]');
+
+  // mark it active
+  menuAnchor.parent().addClass('active');
+
+  // if it's got a parent navbar menu mark it active as well
+  menuAnchor.closest('li.dropdown').addClass('active');
+});
+</script>
+
+
+<div class="container-fluid main-container">
+
+<!-- tabsets -->
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+</script>
+
+<!-- code folding -->
+
+
+
+
+
+
+<div class="navbar navbar-default  navbar-fixed-top" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index.html">Jorge A. Vélez</a>
+    </div>
+    <div id="navbar" class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+        <li>
+  <a href="index.html">
+    <span class="fa fa-home"></span>
+     
+    
+  </a>
+</li>
+<li>
+  <a href="research.html">Research</a>
+</li>
+<li>
+  <a href="teaching.html">Teaching</a>
+</li>
+<li>
+  <a href="software.html">Software</a>
+</li>
+<li>
+  <a href="contact.html">Contact</a>
+</li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        
+      </ul>
+    </div><!--/.nav-collapse -->
+  </div><!--/.container -->
+</div><!--/.navbar -->
+
+<div class="fluid-row" id="header">
+
+
+
+<h1 class="title toc-ignore">Jorge A Vélez</h1>
+
+</div>
+
+
+<p><!-- # To install icons I use the oackage library("icon") that can be installed using: devtools::install_github("ropenscilabs/icon") --></p>
+<!-- To push to github I use the following commands in the command line: -->
+<!-- git add --all -->
+<!-- git commit -m "CV updates" -->
+<!-- git push -u origin master -->
+<!-- <br><br> -->
+<!-- <br><br> -->
+<div class="page__inner-wrap" markdown="1">
+<header>
+<h1 class="page__title" itemprop="headline">
+</h1>
+</header>
+<section class="page__content" itemprop="text">
+<p>
+<p><img class="img-responsive" style="float: left; margin: 0px 20px 20px 0px;" src="files/velez3.jpg" width="380" height="275"> <font size="5"></p>
+<p>
+Ph.D. Candidate in Economics and Organizations
+</p>
+<p>
+Universitat Autonoma de Barcelona
+</p>
+<!-- <br><br> -->
+<p><br><br></p>
+<!-- <p> *I will be on the job market in 2018/2019 and available for interviews at the ASSA Annual Meeting in Atlanta, GA (January 4-6, 2019)* </p> -->
+<!--<p>Postdoctoral Fellow at UC Berkeley and Visiting Fellow at the National Bureau of Economic Research (2019-2020)</p>
+<p><br><br></p>
+<p>Assistant Professor, Department of Economics, UCLA (2020-)</p>
+<br><br> <!-- You can download a recent version of my <a href="files/CV_velez_ShemTov.pdf" target="_blank">CV here</a>.</p></section> --> <a href="files/Velez_CV.pdf" target="_blank">Curriculum vitae</a>
+</p>
+</section>
+<p>E-mail: <a href="mailto:jorgeandres.velez@uab.cat">jorgeandres.velez@uab.cat</a></p>
+<p><br><br></p>
+<p><strong>Research fields:</strong> The Economics of Innovation, Innovation Policies <!-- <p> Economics of Crime </p> --> <!-- Before coming to Berkeley I completed my B.A and M.A in Economics at Tel-Aviv University.  --></p>
+<p><br><br></p>
+<!--<p>Check out my better half’s website <a href="https://sites.google.com/site/julianalondonovelez/home" target="_blank">here</a>.</p>-->
+<p><font size="4"></p>
+</div>
+<p><br><br> <br><br> <!-- <br><br> --></p>
+<!-- --- -->
+<!-- ## Working papers -->
+<!-- ### New Estimates of the Behavioral and Incapacitation Effects of Prison -->
+<!-- #### with Evan K. Rose  (Job Market Paper) -->
+<!-- U.S. courts provide constitutionally mandated legal services to indigent defendants via private court-appointed attorneys and public defenders' organizations. I investigate the relative efficacy of these two modes of indigent defense by comparing outcomes of co-defendants assigned either a public defender or a private court-appointed attorney within the same case. Using data from San Francisco and federal district courts, I argue and show empirically that in multiple defendant cases public defender assignment is as good as random. Estimates show that public defenders reduce the probability of any prison sentences by 22%, as well as the length of prison by 10%.   -->
+<!-- --- -->
+<!-- ## Working papers -->
+<!-- aass -->
+<!-- aassa -->
+<!-- </body> -->
+<!-- sdsdsd -->
+<!-- <img style="float: right;" src="Screenshot from 2016-05-06 11:00:07.png"> -->
+
+
+
+
+</div>
+
+<script>
+
+// add bootstrap table styles to pandoc tables
+function bootstrapStylePandocTables() {
+  $('tr.header').parent('thead').parent('table').addClass('table table-condensed');
+}
+$(document).ready(function () {
+  bootstrapStylePandocTables();
+});
+
+
+</script>
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src  = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+
+</body>
+</html>
