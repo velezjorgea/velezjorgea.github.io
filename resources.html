@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+
+<meta charset="utf-8" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="generator" content="pandoc" />
+
+
+
+
+<title>Software</title>
+
+<script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link href="site_libs/bootstrap-3.3.5/css/flatly.min.css" rel="stylesheet" />
+<script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<script src="site_libs/navigation-1.1/tabsets.js"></script>
+<link href="site_libs/highlightjs-9.12.0/textmate.css" rel="stylesheet" />
+<script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
+<link href="site_libs/font-awesome-5.0.13/css/fa-svg-with-js.css" rel="stylesheet" />
+<script src="site_libs/font-awesome-5.0.13/js/fontawesome-all.min.js"></script>
+<script src="site_libs/font-awesome-5.0.13/js/fa-v4-shims.min.js"></script>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-110538499-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-110538499-1');
+</script>
+
+<style type="text/css">code{white-space: pre;}</style>
+<style type="text/css">
+  pre:not([class]) {
+    background-color: white;
+  }
+</style>
+<script type="text/javascript">
+if (window.hljs) {
+  hljs.configure({languages: []});
+  hljs.initHighlightingOnLoad();
+  if (document.readyState && document.readyState === "complete") {
+    window.setTimeout(function() { hljs.initHighlighting(); }, 0);
+  }
+}
+</script>
+
+
+
+<style type="text/css">
+h1 {
+  font-size: 34px;
+}
+h1.title {
+  font-size: 38px;
+}
+h2 {
+  font-size: 30px;
+}
+h3 {
+  font-size: 24px;
+}
+h4 {
+  font-size: 18px;
+}
+h5 {
+  font-size: 16px;
+}
+h6 {
+  font-size: 12px;
+}
+.table th:not([align]) {
+  text-align: left;
+}
+</style>
+
+<link rel="stylesheet" href="styles.css" type="text/css" />
+
+</head>
+
+<body>
+
+<style type = "text/css">
+.main-container {
+  max-width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+}
+code {
+  color: inherit;
+  background-color: rgba(0, 0, 0, 0.04);
+}
+img {
+  max-width:100%;
+  height: auto;
+}
+.tabbed-pane {
+  padding-top: 12px;
+}
+.html-widget {
+  margin-bottom: 20px;
+}
+button.code-folding-btn:focus {
+  outline: none;
+}
+</style>
+
+
+<style type="text/css">
+/* padding for bootstrap navbar */
+body {
+  padding-top: 60px;
+  padding-bottom: 40px;
+}
+/* offset scroll position for anchor links (for fixed navbar)  */
+.section h1 {
+  padding-top: 65px;
+  margin-top: -65px;
+}
+
+.section h2 {
+  padding-top: 65px;
+  margin-top: -65px;
+}
+.section h3 {
+  padding-top: 65px;
+  margin-top: -65px;
+}
+.section h4 {
+  padding-top: 65px;
+  margin-top: -65px;
+}
+.section h5 {
+  padding-top: 65px;
+  margin-top: -65px;
+}
+.section h6 {
+  padding-top: 65px;
+  margin-top: -65px;
+}
+</style>
+
+<script>
+// manage active state of menu based on current page
+$(document).ready(function () {
+  // active menu anchor
+  href = window.location.pathname
+  href = href.substr(href.lastIndexOf('/') + 1)
+  if (href === "")
+    href = "index.html";
+  var menuAnchor = $('a[href="' + href + '"]');
+
+  // mark it active
+  menuAnchor.parent().addClass('active');
+
+  // if it's got a parent navbar menu mark it active as well
+  menuAnchor.closest('li.dropdown').addClass('active');
+});
+</script>
+
+
+<div class="container-fluid main-container">
+
+<!-- tabsets -->
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+</script>
+
+<!-- code folding -->
+
+
+
+
+
+
+<div class="navbar navbar-default  navbar-fixed-top" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index.html">Jorge A Vélez</a>
+    </div>
+    <div id="navbar" class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+        <li>
+  <a href="index.html">
+    <span class="fa fa-home"></span>
+     
+    
+  </a>
+</li>
+<li>
+  <a href="Projects.html">My role <span class="fas fa-user-circle"></span></a>
+
+</li>
+<li>
+  <a href="research.html">Research  <span class="fa fa-book"></span></a>
+
+</li>
+<li>
+  <a href="teaching.html">Teaching <span class="fa fa-users"></span></a>
+</li>
+<li>
+  <a href="software.html">Resources <span class="fa fa-code"></span> </a>
+</li>
+<li>
+  <a href="contact.html">Contact <span class="fa fa-address-book"></span></a>
+</li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        
+      </ul>
+    </div><!--/.nav-collapse -->
+  </div><!--/.container -->
+</div><!--/.navbar -->
+
+<div class="fluid-row" id="header">
+
+
+
+<h2 class="title toc-ignore">My repository</h2>
+<p>You can access my software packages at my GitHub page in the <a href="https://github.com/velezjorgea" target="_blank"> link here <i class="fa fa-github" aria-hidden="true"></i>
+ </a>.</p>
+ <p><br></p>
+<p> <a href="ukmap2.html">App Sample 1 <span class="fa fa-map"></span></a>
+ </a>.</p>
+ <p> <a href="ukmap3.html">App Sample 2 <span class="fa fa-map"></span></a>
+  <p> <a href="https://www.arcgis.com/apps/View/index.html?appid=007e1de4a01a46b196ad2ccaed20eb3b&extent=-20.3307,49.5899,17.1766,59.5069">App Sample 3: Creative radar Report (UK) <span class="fa fa-map"></span></a>
+<p> <a href="tableau.html">App Sample 4 <span class="fa fa-external-link"></span></a>
+ </a>.</p>
+
+<p><br><br></p>
+<h2 class="title toc-ignore">Datasets</h2>
+Shoot me an email if you have some interesting links.
+<p><br></p>
+<p> <a href="http://www.oecd.org/innovation/" target="_blank">OECD: Innovation: Data, working papers, etc.  <span class="fa fa-external-link"></span></a>
+ </a>.</p>
+ <p> <a href="http://si-per.eu/">SIPER <span class="fa fa-external-link"></span></a>
+  <p> <a href="http://www.data-archive.ac.uk/" target="_blank">UK Data Archive  <span class="fa fa-external-link"></span></a>
+<p> <a href="http://www.nber.org/data/" target="_blank">NBER datasets<span class="fa fa-external-link"></span></a>
+ <p> <a href="https://data.gov.uk/" target="_blank">UK publicly available GOV data <span class="fa fa-external-link"></span></a>
+  <p> <a href="https://www.nomisweb.co.uk/" target="_blank">NOMIS: Official labour market stats UK <span class="fa fa-external-link"></span></a>
+  <p> <a href="https://books.google.com/ngrams" target="_blank">Google books<span class="fa fa-external-link"></span></a>
+      <p> <a href="http://census.okfn.org/" target="_blank">Open Data Census  <span class="fa fa-external-link"></span></a>
+          <p> <a href="http://worldmanagementsurvey.org/" target="_blank">World Management Survey<span class="fa fa-external-link"></span></a>
+            <p> <a href="https://www.kaggle.com/datasets" target="_blank">Kaggle dataset<span class="fa fa-external-link"></span></a>
+      <p> <a href="https://datasetsearch.research.google.com/" target="_blank">Google data search<span class="fa fa-external-link"></span></a>
+        <p> <a href="https://www.enterprisesurveys.org/en/methodology" target="_blank">World bank enterprise survey<span class="fa fa-external-link"></span></a>
+          <p> <a href="https://icono.fecyt.es/pitec" target="_blank">Spanish Technological panel<span class="fa fa-external-link"></span></a>
+            <p> <a href="https://www.comp-net.org/data/#:~:text=The%20CompNet%20dataset%20includes%20a,analysis%20on%20competitiveness%20and%20productivity.&text=The%20dataset%20includes%20indicators%20computed,to%20allow%20cross%2Dcountry%20comparability." target="_blank">CompNet firm-level based dataset<span class="fa fa-external-link"></span></a>
+                <p> <a href="http://www.innovationpolicyplatform.org/www.innovationpolicyplatform.org/stip/index.html" target="_blank">STI Policy Database<span class="fa fa-external-link"></span></a>
+ </a>.</p>
+<p><br><br></p>
+<h2 class="title toc-ignore">Institutions Academic</h2>
+<p> <a href="http://sites.bu.edu/tpri/" target="_blank"> Technology and Policy Research Initiative  <span class="fa fa-external-link"></span></a>
+ </a>.</p>
+ <p> <a href="https://cep.lse.ac.uk/_new/publications/centrepiece/" target="_blank">LSE- Center for Economic Performance <span class="fa fa-external-link"></span></a>
+<p> <a href="https://www.ifs.org.uk/?gclid=CjwKCAjw9MuCBhBUEiwAbDZ-7ipv0DYsZjpp_PAj6QgoFmF4UKvBbVaNCG46nI-2ida12Ne_l_jyvRoCrVAQAvD_BwE" target="_blank">Institute of fiscal studies <span class="fa fa-external-link"></span></a>
+  <p> <a href="https://www.zew.de/en/" target="_blank">ZEW <span class="fa fa-external-link"></span></a>
+     <p> <a href="https://www.merit.unu.edu/" target="_blank">UNU-MERIT <span class="fa fa-external-link"></span></a>
+ <p> <a href="https://whatworksgrowth.org/" target="_blank">what works growth centre <span class="fa fa-external-link"></span></a>
+<p><br><br></p>
+<h2 class="title toc-ignore">Policy making institutions</h2>
+  <p> <a href="http://www.oecd.org/sti/inno/" target="_blank"> STI OECD <span class="fa fa-external-link"></span> </a> 
+<p> <a href="https://www.nesta.org.uk/" target="_blank">NESTA<span class="fa fa-external-link"></span></a>
+  <p> <a href="https://www.iadb.org/en/topics/competitiveness-technology-and-innovation" target="_blank">IDB: Competitiveness and innovation<span class="fa fa-external-link"></span></a>
+ </a>.</p>
+<p><br><br></p>
+<h2 class="title toc-ignore">Evidence based policy</h2>
+  <p> <a href="https://www.arnoldventures.org/work/evidence-based-policy-innovation" target="_blank">Laura and John Arnold Foundation (US)  <span class="fa fa-map"></span> </a> (Previously The Coalition for Evidence-Based Policy)
+<p> <a href="https://www.nesta.org.uk/" target="_blank">NESTA<span class="fa fa-external-link"></span></a>
+  <p> <a href="https://www.iadb.org/en/topics/competitiveness-technology-and-innovation" target="_blank">IDB: Competitiveness and innovation<span class="fa fa-external-link"></span></a>
+ </a>.</p>
+</div>
+  <p><br><br></p>
+<h2 class="title toc-ignore">Informed policy debate</h2>
+  <p> <a href="https://www.bruegel.org/" target="_blank">Bruegel <span class="fa fa-external-link"></span></a>
+<p> <a href="https://voxeu.org/" target="_blank">Voxeu<span class="fa fa-external-link"></span></a>
+ </a>.</p>
+<p><br><br></p>
+<h2 class="title toc-ignore">General resources for researchers</h2>
+  <p> <a href="https://medium.com/@paul.niehaus/doing-research-18cb310529e0" target="_blank">Doing Research  <span class="fa fa-external-link"></span></a> by Paul Nielhaus
+    <p> <a href="http://tertilt.vwl.uni-mannheim.de/phd%20students.php" target="_blank">for PhD students<span class="fa fa-external-link"></span></a>
+<p> <a href="https://twitter.com/jenniferdoleac/status/1026548622152753152?s=19" target="_blank">From twitter<span class="fa fa-external-link"></span></a>
+ </a>.</p>
+</div>
+<html>
+<head><title>Shiny App Iframe</title></head>
+
+
+<script>
+
+// add bootstrap table styles to pandoc tables
+function bootstrapStylePandocTables() {
+  $('tr.header').parent('thead').parent('table').addClass('table table-condensed');
+}
+$(document).ready(function () {
+  bootstrapStylePandocTables();
+});
+
+
+</script>
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src  = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+
+</body>
+</html>
