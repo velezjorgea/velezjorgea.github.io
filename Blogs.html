@@ -1,18 +1,10 @@
 <!DOCTYPE html>
-
 <html xmlns="http://www.w3.org/1999/xhtml">
-
 <head>
-
 <meta charset="utf-8" />
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta name="generator" content="pandoc" />
-
-
-
-
 <title>Research</title>
-
 <script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <link href="site_libs/bootstrap-3.3.5/css/flatly.min.css" rel="stylesheet" />
@@ -25,16 +17,13 @@
 <link href="site_libs/font-awesome-5.0.13/css/fa-svg-with-js.css" rel="stylesheet" />
 <script src="site_libs/font-awesome-5.0.13/js/fontawesome-all.min.js"></script>
 <script src="site_libs/font-awesome-5.0.13/js/fa-v4-shims.min.js"></script>
-<!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-110538499-1"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
-
   gtag('config', 'UA-110538499-1');
 </script>
-
 <style type="text/css">code{white-space: pre;}</style>
 <style type="text/css">
   pre:not([class]) {
@@ -50,136 +39,47 @@ if (window.hljs) {
   }
 }
 </script>
-
-
-
 <style type="text/css">
-h1 {
-  font-size: 34px;
-}
-h1.title {
-  font-size: 38px;
-}
-h2 {
-  font-size: 30px;
-}
-h3 {
-  font-size: 24px;
-}
-h4 {
-  font-size: 18px;
-}
-h5 {
-  font-size: 16px;
-}
-h6 {
-  font-size: 12px;
-}
-.table th:not([align]) {
-  text-align: left;
-}
+h1 { font-size: 34px; }
+h1.title { font-size: 38px; }
+h2 { font-size: 30px; }
+h3 { font-size: 24px; }
+h4 { font-size: 18px; }
+h5 { font-size: 16px; }
+h6 { font-size: 12px; }
+.table th:not([align]) { text-align: left; }
 </style>
-
 <link rel="stylesheet" href="styles.css" type="text/css" />
-
 </head>
 
 <body>
 
 <style type = "text/css">
-.main-container {
-  max-width: 940px;
-  margin-left: auto;
-  margin-right: auto;
-}
-code {
-  color: inherit;
-  background-color: rgba(0, 0, 0, 0.04);
-}
-img {
-  max-width:100%;
-  height: auto;
-}
-.tabbed-pane {
-  padding-top: 12px;
-}
-.html-widget {
-  margin-bottom: 20px;
-}
-button.code-folding-btn:focus {
-  outline: none;
-}
+.main-container { max-width: 940px; margin-left: auto; margin-right: auto; }
+code { color: inherit; background-color: rgba(0, 0, 0, 0.04); }
+img { max-width:100%; height: auto; }
+.tabbed-pane { padding-top: 12px; }
+.html-widget { margin-bottom: 20px; }
+button.code-folding-btn:focus { outline: none; }
 </style>
-
 
 <style type="text/css">
-/* padding for bootstrap navbar */
-body {
-  padding-top: 60px;
-  padding-bottom: 40px;
-}
-/* offset scroll position for anchor links (for fixed navbar)  */
-.section h1 {
-  padding-top: 65px;
-  margin-top: -65px;
-}
-
-.section h2 {
-  padding-top: 65px;
-  margin-top: -65px;
-}
-.section h3 {
-  padding-top: 65px;
-  margin-top: -65px;
-}
-.section h4 {
-  padding-top: 65px;
-  margin-top: -65px;
-}
-.section h5 {
-  padding-top: 65px;
-  margin-top: -65px;
-}
-.section h6 {
-  padding-top: 65px;
-  margin-top: -65px;
-}
+body { padding-top: 60px; padding-bottom: 40px; }
+.section h1 { padding-top: 65px; margin-top: -65px; }
+.section h2 { padding-top: 65px; margin-top: -65px; }
+.section h3 { padding-top: 65px; margin-top: -65px; }
+.section h4 { padding-top: 65px; margin-top: -65px; }
+.section h5 { padding-top: 65px; margin-top: -65px; }
+.section h6 { padding-top: 65px; margin-top: -65px; }
 </style>
 
-<script>
-// manage active state of menu based on current page
-$(document).ready(function () {
-  // active menu anchor
-  href = window.location.pathname
-  href = href.substr(href.lastIndexOf('/') + 1)
-  if (href === "")
-    href = "index.html";
-  var menuAnchor = $('a[href="' + href + '"]');
-
-  // mark it active
-  menuAnchor.parent().addClass('active');
-
-  // if it's got a parent navbar menu mark it active as well
-  menuAnchor.closest('li.dropdown').addClass('active');
-});
-</script>
-
-
-<div class="container-fluid main-container">
-
-<!-- tabsets -->
 <script>
 $(document).ready(function () {
   window.buildTabsets("TOC");
 });
 </script>
 
-<!-- code folding -->
-
-
-
-
-
+<div class="container-fluid main-container">
 
 <div class="navbar navbar-default  navbar-fixed-top" role="navigation">
   <div class="container">
@@ -193,52 +93,29 @@ $(document).ready(function () {
     </div>
     <div id="navbar" class="navbar-collapse collapse">
       <ul class="nav navbar-nav">
-        <li>
-  <a href="index.html">
-    <span class="fa fa-home"></span>
-     
-    
-  </a>
-</li>
-<li>
-  <a href="Projects.html">My role <span class="fas fa-user-circle"></span></a>
-
-</li>
-<li>
-  <a href="research.html">Research  <span class="fa fa-book"></span></a>
-
-</li>
-<li>
-  <a href="teaching.html">Teaching <span class="fa fa-users"></span></a>
-</li>
-<li>
-  <a href="resources.html">Resources <span class="fa fa-code"></span> </a>
-</li>
-<li>
-  <a href="contact.html">Contact <span class="fa fa-address-book"></span></a>
-</li>
+        <li><a href="index.html"><span class="fa fa-home"></span></a></li>
+        <li><a href="Projects.html">My role <span class="fas fa-user-circle"></span></a></li>
+        <li><a href="research.html">Research  <span class="fa fa-book"></span></a></li>
+        <li><a href="teaching.html">Teaching <span class="fa fa-users"></span></a></li>
+        <li><a href="resources.html">Resources <span class="fa fa-code"></span> </a></li>
+        <li><a href="contact.html">Contact <span class="fa fa-address-book"></span></a></li>
       </ul>
-      <ul class="nav navbar-nav navbar-right">
-        
-      </ul>
-    </div><!--/.nav-collapse -->
-  </div><!--/.container -->
-</div><!--/.navbar -->
-
-<div class="fluid-row" id="header">
-
-
-
-<h1 class="title toc-ignore">Research</h1>
-
+      <ul class="nav navbar-nav navbar-right"></ul>
+    </div>
+  </div>
 </div>
 
+<div class="fluid-row" id="header">
+<h1 class="title toc-ignore">Research</h1>
+</div>
 
 <p><br></p>
 <div id="section" class="section level1 tabset tabset-fade tabset-pills">
 <h1></h1>
+
 <div id="recent" class="section level2">
 <h2>Recent</h2>
+
 <div id="paper" class="section level3">
 <h3><a href="https://www.ncub.co.uk/insight/a-measurable-loss-the-european-regional-development-fund-as-a-catalyst-for-university-business-collaboration/" target="_blank"> A measurable loss: The European Regional Development Fund as a catalyst for university-business collaboration  <span class="fa fa-file-pdf-o"></span></a></h3>
 <div id="WITH JOSH" class="section level4">
@@ -252,9 +129,8 @@ $(document).ready(function () {
 <div id="WITH JOSH" class="section level4">
   <h4><a href="https://www.ncub.co.uk/insight/ncub-insight-report-into-the-uks-graduate-entrepreneurs/" target="_blank"> Insight report, 2022 </a></h4>
 <h4>(with Rodriguez </a>)</h4>
-<p>This short insight paper provides a snapshot of the UK’s graduate entrepreneurs based on insights from the Graduate Outcomes Survey. Graduate entrepreneurs are defined as those that, within 15 months of graduating, either started their own businesses, considered themselves self-employed (freelancers), or are at the conceptual stage (i.e., developing a creative, artistic or professional portfolio). It shows that graduate entrepreneurs in the UK come from different backgrounds and locations. They tend to undertake entrepreneurship activities in the places they have an existing connection to. In other words, the majority of UK graduate entrepreneurs are local entrepreneurs (i.e., they were born and studied locally).</p>
+<p>This short insight paper provides a snapshot of the UK's graduate entrepreneurs based on insights from the Graduate Outcomes Survey. Graduate entrepreneurs are defined as those that, within 15 months of graduating, either started their own businesses, considered themselves self-employed (freelancers), or are at the conceptual stage (i.e., developing a creative, artistic or professional portfolio). It shows that graduate entrepreneurs in the UK come from different backgrounds and locations. They tend to undertake entrepreneurship activities in the places they have an existing connection to. In other words, the majority of UK graduate entrepreneurs are local entrepreneurs (i.e., they were born and studied locally).</p>
 <hr />
-<!-- --- -->
 <div id="paper" class="section level3">
 <h3><a href="https://pec.ac.uk/research-reports/rural-creative-microclusters" target="_blank"> Mapping and examining the determinants of England's rural creative microclusters  <span class="fa fa-file-pdf-o"></span></a></h3>
 <div id="WITH JOSH" class="section level4">
@@ -271,31 +147,27 @@ social capital), location and diverse economies. We find that the drivers of clu
 rural areas are not inherently different from urban areas, apart from a weak link between 
 rural microclustering and informal social networks. </p>
 <hr />
-<!-- --- -->
 <div id="paper" class="section level3">
-<h3><a href="https://www.pec.ac.uk/research-reports/creative-radar-2021-the-impact-of-covid-19-on-the-uks-creative-industries" target="_blank"> Creative Radar 2021: The impact of COVID-19 on the UK’s creative industries  <span class="fa fa-file-pdf-o"></span></a></h3>
+<h3><a href="https://www.pec.ac.uk/research-reports/creative-radar-2021-the-impact-of-covid-19-on-the-uks-creative-industries" target="_blank"> Creative Radar 2021: The impact of COVID-19 on the UK's creative industries  <span class="fa fa-file-pdf-o"></span></a></h3>
 <div id="WITH JOSH" class="section level4">
   <h4><a href="https://www.pec.ac.uk/research-reports/creative-radar-2021-the-impact-of-covid-19-on-the-uks-creative-industries" target="_blank"> Policy Report- PEC </a></h4>
 <h4>(with Siepel, Camerani,, Masucci, Casadei and Bloom. </a>)</h4>
 <p>This is the second report from the Creative Radar series, by PEC researchers at the University of Sussex, and funded by the AHRC. The authors analysed data from a survey of creative businesses initially carried out just before the COVID-19 pandemic, and then again a year later. This is the second report from the Creative Radar series, by PEC researchers at the University of Sussex, and funded by the AHRC. The authors analysed data from a survey of creative businesses initially carried out just before the COVID-19 pandemic, and then again a year later.</p>
 <hr />
-<!-- --- -->
 <div id="paper" class="section level3">
-<h3><a href="https://www.pec.ac.uk/research-reports/creative-radar" target="_blank"> Creative Industries Radar: Mapping the UK’s creative clusters and microclusters  <span class="fa fa-file-pdf-o"></span></a></h3>
+<h3><a href="https://www.pec.ac.uk/research-reports/creative-radar" target="_blank"> Creative Industries Radar: Mapping the UK's creative clusters and microclusters  <span class="fa fa-file-pdf-o"></span></a></h3>
 <div id="WITH JOSH" class="section level4">
   <h4><a href="https://www.pec.ac.uk/research-reports/creative-radar" target="_blank"> Policy Report- PEC </a></h4>
 <h4>(with Siepel, Camerani,, Masucci, Casadei and Bloom. </a>)</h4>
-<p>This report introduces a new experimental approach to understanding the clustering of UK creative industries businesses. By using web scraped data of 200,000 creative industries businesses and organisations, we identify creative ‘microclusters’ at the street, neighbourhood, and town level. We then explore the UK’s creative clusters and microclusters in greater detail through a representative survey of 976 creative industries businesses. </p>
+<p>This report introduces a new experimental approach to understanding the clustering of UK creative industries businesses. By using web scraped data of 200,000 creative industries businesses and organisations, we identify creative 'microclusters' at the street, neighbourhood, and town level. We then explore the UK's creative clusters and microclusters in greater detail through a representative survey of 976 creative industries businesses. </p>
 <hr />
-<!-- --- -->
 <div id="paper" class="section level3">
 <h3><a href="https://www.tandfonline.com/doi/abs/10.1080/13662716.2020.1801388" target="_blank"> Innovation Subsidies and Business Cycle <span class="fa fa-file-pdf-o"></span></a></h3>
 <div id="with-ISABEL" class="section level4">
   <h4><a href="https://www.tandfonline.com/doi/abs/10.1080/13662716.2020.1801388" target="_blank"> Published in Industry and Innovation </a></h4>
 <h4>(with Isabel Busom</a>)</h4>
-<p>This paper investigates the impact of public support to business investment R&D over the different phases of the business cycle. It uses firm-level data for Spain during the period 2005 to 2014, thus covering an expansion, a recession and a recovery. Propensity score matching and differences in differences methods are combined to estimate the response of supported firms in each phase. Findings show that the profile of beneficiaries of public support did not change significantly over the cycle. Estimated effects depend on the stage of the cycle, the duration of support and the type of outcome indicator. The impact on total investment is positive during expansion years and null during the crisis years; when looking at firms’ allocation of human resources to R&D, the multiplier effect is higher during the crisis years; finally effects last longer for longer spells. Direct support allowed participating firms to allocate more of their employees’ time to R&D activities during the recession. This suggests that under some conditions the multiplier of public support to innovation may be higher during recessions. </p>
+<p>This paper investigates the impact of public support to business investment R&D over the different phases of the business cycle. It uses firm-level data for Spain during the period 2005 to 2014, thus covering an expansion, a recession and a recovery. Propensity score matching and differences in differences methods are combined to estimate the response of supported firms in each phase. Findings show that the profile of beneficiaries of public support did not change significantly over the cycle. Estimated effects depend on the stage of the cycle, the duration of support and the type of outcome indicator. The impact on total investment is positive during expansion years and null during the crisis years; when looking at firms' allocation of human resources to R&D, the multiplier effect is higher during the crisis years; finally effects last longer for longer spells. Direct support allowed participating firms to allocate more of their employees' time to R&D activities during the recession. This suggests that under some conditions the multiplier of public support to innovation may be higher during recessions. </p>
 <hr />
-<!-- --- -->
 </div>
 </div>
 <div id="the-effects-of-teacher-quality-on-criminal-behavior" class="section level3">
@@ -305,16 +177,138 @@ rural microclustering and informal social networks. </p>
 <h4>(with Isabel Busom)</a></h4>
 <p>We contribute new evidence on the relationship between public support, innovation and productivity at the firm level by investigating several under-explored issues. Using firm-level data for Colombian Companies, we try to identify and compare the profile of firms that have access to public support for innovation in manufacturing and service industries separately. In the second block of research, we examine whether the association between the introduction of innovations and productivity varies across the productivity distribution; third, we distinguish between technological and non-technological innovation, since the latter may be especially relevant in the service industries relative to manufacturing.</p>
 <hr />
-<!-- --- -->
 </div>
 </div>
 <div id="make-or-buy-the-provision-of-indigent-defense-services-in-the-u.s." class="section level3">
-<h3><a href="files/Velez_chapter4.pdf" target="_blank">Duration dependence in R&D subsidization and Firm’s innovative behavior <span class="fa fa-file-pdf-o"></span></a></h3>
+<h3><a href="files/Velez_chapter4.pdf" target="_blank">Duration dependence in R&D subsidization and Firm's innovative behavior <span class="fa fa-file-pdf-o"></span></a></h3>
 <div id="policy-brief-by-the-california-policy-lab" class="section level4">
-<p>We investigate the determinants of R&D subsidization persistence and its impact on innovation results. The empirical analysis comprises three reduced-form equations which involve estimating survival rates of R&D subsidies and analyzing their effect on firms’ innovation results including the decision to stop innovation projects. First, we find that firms’ continuous engagement into R&D subsidies is a self-sustained process which is in part fueled by the accumulation of experience in getting funding even once unobserved heterogeneity is controlled for. Second, R&D subsidy persistence is positively correlated with innovation outcomes, including a lower probability of abandoning innovation projects. Results confirm some heterogeneity between SMEs and large firms. In particular, R&D subsidy persistence is associated with New-to-market innovation for SMEs but not for large firms. From the policy perspective, encouraging continuous use of R&D subsidies in SMEs seems to be particularly more appropriate in fostering innovation results which are far from the market (i.e., more radical innovation) and whose degree of market failure may be higher.</p>
+<p>We investigate the determinants of R&D subsidization persistence and its impact on innovation results. The empirical analysis comprises three reduced-form equations which involve estimating survival rates of R&D subsidies and analyzing their effect on firms' innovation results including the decision to stop innovation projects. First, we find that firms' continuous engagement into R&D subsidies is a self-sustained process which is in part fueled by the accumulation of experience in getting funding even once unobserved heterogeneity is controlled for. Second, R&D subsidy persistence is positively correlated with innovation outcomes, including a lower probability of abandoning innovation projects. Results confirm some heterogeneity between SMEs and large firms. In particular, R&D subsidy persistence is associated with New-to-market innovation for SMEs but not for large firms. From the policy perspective, encouraging continuous use of R&D subsidies in SMEs seems to be particularly more appropriate in fostering innovation results which are far from the market (i.e., more radical innovation) and whose degree of market failure may be higher.</p>
 <hr />
 </div>
 </div>
+</div>
+
+<div id="blogs" class="section level2">
+<h2>Blogs (NCUB Insights)</h2>
+<p>A selection of policy blogs and data insights written for the <a href="https://www.ncub.co.uk/content-author/jorge-velez-ospina/" target="_blank">National Centre for Universities &amp; Business (NCUB)</a>, mostly on UK R&D investment, university-business collaboration, and higher education outcomes.</p>
+
+<div id="blog1" class="section level3">
+<h3><a href="https://www.ncub.co.uk/insight/berd2025/" target="_blank">UK Business R&D: A fragile recovery in a rapidly diverging global landscape <span class="fa fa-external-link"></span></a></h3>
+<h4>NCUB Insight, 24 December 2025</h4>
+<p>Business R&D spending rose 2.3% in 2024 to £55.6bn, but real investment has flatlined since 2021, with growth driven mainly by staff costs rather than capital investment. The piece highlights widening regional and sectoral divides — strong gains in the West Midlands, London, financial services and digital/tech, against declines in construction, creative industries, and several regions outside the South East — and situates the UK's muted recovery within a global picture dominated by US tech investment.</p>
+<hr />
+</div>
+
+<div id="blog2" class="section level3">
+<h3><a href="https://www.ncub.co.uk/insight/uk-higher-education-expanding-access/" target="_blank">UK Higher Education: expanding access, delivering strong outcomes, and facing new pressures <span class="fa fa-external-link"></span></a></h3>
+<h4>NCUB Insight, 11 September 2025</h4>
+<p>Drawing on the OECD's Education at a Glance 2025, this piece shows the UK combining high participation, strong completion and employment outcomes, and continued global appeal, while flagging structural vulnerabilities: heavy reliance on private funding, an unusually large international student population exposed to visa policy shifts, and stark inequalities for those without a degree.</p>
+<hr />
+</div>
+
+<div id="blog3" class="section level3">
+<h3><a href="https://www.ncub.co.uk/insight/uk-rd-spending-falls-again-why-it-matters-for-our-future/" target="_blank">UK R&D spending falls again – why it matters for our future <span class="fa fa-external-link"></span></a></h3>
+<h4>NCUB Insight, 26 August 2025</h4>
+<p>A second consecutive year of real-terms decline in UK R&D spending — over £2.8bn cut since 2021 — driven mainly by high inflation eroding the value of investment rather than falling cash spend, with business and higher education R&D (together ~92% of the total) leading the downturn.</p>
+<hr />
+</div>
+
+<div id="blog4" class="section level3">
+<h3><a href="https://www.ncub.co.uk/insight/winter-blues-for-the-uk-economy/" target="_blank">Winter Blues for the UK Economy <span class="fa fa-external-link"></span></a></h3>
+<h4>NCUB Insight, 16 January 2025</h4>
+<hr />
+</div>
+
+<div id="blog5" class="section level3">
+<h3><a href="https://www.ncub.co.uk/insight/uk-business-rd-a-worrying-decline/" target="_blank">UK Business R&D: A worrying decline <span class="fa fa-external-link"></span></a></h3>
+<h4>NCUB Insight, 17 December 2024</h4>
+<p>UK businesses spent 6% less on R&D in 2023 than in 2021 in real terms; total BERD reached £49.97bn, a 3.0% real-terms decline from 2022, continuing a trend consistent with HMRC data on falling R&D tax credit claims.</p>
+<hr />
+</div>
+
+<div id="blog6" class="section level3">
+<h3><a href="https://www.ncub.co.uk/insight/do-we-have-the-data-we-need-to-drive-future-skills/" target="_blank">Do we have the data we need to drive future skills? <span class="fa fa-external-link"></span></a></h3>
+<h4>NCUB Insight, 4 November 2024</h4>
+<hr />
+</div>
+
+<div id="blog7" class="section level3">
+<h3><a href="https://www.ncub.co.uk/insight/the-uks-innovation-dilemma-overlooking-the-power-of-intangible-investment/" target="_blank">The UK's innovation dilemma: overlooking the power of intangible investment <span class="fa fa-external-link"></span></a></h3>
+<h4>NCUB Insight, 25 October 2024</h4>
+<hr />
+</div>
+
+<div id="blog8" class="section level3">
+<h3><a href="https://www.ncub.co.uk/insight/new-he-bci-survey-data-a-deep-dive-into-university-business-interactions/" target="_blank">New HE-BCI survey data: A deep dive into university-business interactions <span class="fa fa-external-link"></span></a></h3>
+<h4>NCUB Insight, 17 April 2024</h4>
+<hr />
+</div>
+
+<div id="blog9" class="section level3">
+<h3><a href="https://www.ncub.co.uk/insight/beyond-red-herrings-why-claims-universities-dont-drive-economic-growth-fall-short/" target="_blank">Beyond red herrings: why claims universities don't drive economic growth fall short <span class="fa fa-external-link"></span></a></h3>
+<h4>NCUB Insight, 14 March 2024</h4>
+<hr />
+</div>
+
+<div id="blog10" class="section level3">
+<h3><a href="https://www.ncub.co.uk/insight/uk-business-investment-in-rd-what-the-latest-figures-tell-us/" target="_blank">UK Business Investment in R&D: what the latest figures tell us <span class="fa fa-external-link"></span></a></h3>
+<h4>NCUB Insight, 29 February 2024</h4>
+<hr />
+</div>
+
+<div id="blog11" class="section level3">
+<h3><a href="https://www.ncub.co.uk/insight/university-business-interactions-showing-promising-post-pandemic-growth/" target="_blank">University-business interactions showing promising post-pandemic growth <span class="fa fa-external-link"></span></a></h3>
+<h4>NCUB Insight, 6 April 2023</h4>
+<hr />
+</div>
+
+<div id="blog12" class="section level3">
+<h3><a href="https://www.ncub.co.uk/insight/mobility-of-researchers-between-academia-and-industry-a-snapshot-of-the-latest-uk-data/" target="_blank">Mobility of researchers between academia and industry: a snapshot of the latest UK data <span class="fa fa-external-link"></span></a></h3>
+<h4>NCUB Insight, 6 March 2023 (with Marcos Rodriguez)</h4>
+<p>Explores 'intersectoral mobility' between academia and industry, arguing that researchers who move between sectors bring diverse expertise and ideas that foster knowledge spillovers, new products and processes, and economic growth.</p>
+<hr />
+</div>
+
+<div id="blog13" class="section level3">
+<h3><a href="https://www.ncub.co.uk/insight/a-decade-of-change-the-fourth-industrial-revolution/" target="_blank">A decade of change: the Fourth Industrial Revolution <span class="fa fa-external-link"></span></a></h3>
+<h4>NCUB Insight, 2 February 2023</h4>
+<hr />
+</div>
+
+<div id="blog14" class="section level3">
+<h3><a href="https://www.ncub.co.uk/insight/uk-research-and-development-levels-new-data-and-new-trends/" target="_blank">UK research and development levels: new data and new trends <span class="fa fa-external-link"></span></a></h3>
+<h4>NCUB Insight, 24 November 2022</h4>
+<hr />
+</div>
+
+<div id="blog15" class="section level3">
+<h3><a href="https://www.ncub.co.uk/insight/university-business-collaboration-facts-and-figures-2022/" target="_blank">University-Business Collaboration Facts and Figures 2022 <span class="fa fa-external-link"></span></a></h3>
+<h4>NCUB Insight, 27 October 2022 (with Marcos Rodriguez)</h4>
+<p>An interactive facts-and-figures booklet on university-business collaboration in the UK, covering the number of interactions, income generated, and outputs of collaboration.</p>
+<hr />
+</div>
+
+<div id="blog16" class="section level3">
+<h3><a href="https://www.ncub.co.uk/insight/universities-income-remained-afloat-during-the-pandemic-but-challenges-in-income-from-business-collaboration-remain-ahead/" target="_blank">Universities' income rose in first full pandemic year, but challenges remain <span class="fa fa-external-link"></span></a></h3>
+<h4>NCUB Insight, 27 July 2022</h4>
+<hr />
+</div>
+
+<div id="blog17" class="section level3">
+<h3><a href="https://www.ncub.co.uk/insight/new-he-bci-survey-data-shows-varied-impacts-of-covid-19-on-business-university-interaction/" target="_blank">New HE-BCI survey data shows varied impacts of Covid-19 on business-university interaction <span class="fa fa-external-link"></span></a></h3>
+<h4>NCUB Insight, 9 June 2022</h4>
+<hr />
+</div>
+
+<div id="blog18" class="section level3">
+<h3><a href="https://www.ncub.co.uk/insight/uk-innovation-survey-brief-overview/" target="_blank">UK Innovation survey: brief overview <span class="fa fa-external-link"></span></a></h3>
+<h4>NCUB Insight, 26 May 2022 (with Marcos Rodriguez)</h4>
+<p>Reviews the latest UK Innovation Survey (UKIS) results, drawn from a representative sample of 31,928 firms for 2018–2020, showing that innovation activity rebounded from a record low in 2016–2018 (38% of businesses innovating) to 45% in 2018–2020, though still below 2014–2016 levels.</p>
+<hr />
+</div>
+
+</div>
+
 <div id="PhD" class="section level2">
 <h2>PhD</h2>
 <h3><a href="files/Overview.pdf" target="_blank"> Three empirical essays on R&D subsidization and firm innovation <span class="fa fa-external-link"></span></a></h3>
@@ -323,8 +317,9 @@ rural microclustering and informal social networks. </p>
 <p>
 <a href="phd.html" target="_blank">Overview in a video</a>
 </p>
-</p>
 </div>
+</div>
+
 <h1></h1>
 <div id="past" class="section level2">
 <h2>Past</h2>
@@ -381,34 +376,24 @@ rural microclustering and informal social networks. </p>
 <hr />
 
 <footer>
-  <p><small>© 2022. Jorge Velez .</small></p>
+  <p><small>© 2026. Jorge Velez .</small></p>
 </footer>
 
-<p><!-- <a href="trilnick2014whatdrives.pdf" target="_blank">draft-<i class="fa fa-file-pdf-o" aria-hidden="true"></i></a> --></p>
 </div>
 </div>
 </div>
-</div>
-
-
-
 
 </div>
 
 <script>
-
-// add bootstrap table styles to pandoc tables
 function bootstrapStylePandocTables() {
   $('tr.header').parent('thead').parent('table').addClass('table table-condensed');
 }
 $(document).ready(function () {
   bootstrapStylePandocTables();
 });
-
-
 </script>
 
-<!-- dynamically load mathjax for compatibility with self-contained -->
 <script>
   (function () {
     var script = document.createElement("script");

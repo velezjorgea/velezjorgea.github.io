@@ -1,18 +1,10 @@
 <!DOCTYPE html>
-
 <html xmlns="http://www.w3.org/1999/xhtml">
-
 <head>
-
 <meta charset="utf-8" />
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta name="generator" content="pandoc" />
-
-
-
-
 <title>Research</title>
-
 <script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <link href="site_libs/bootstrap-3.3.5/css/flatly.min.css" rel="stylesheet" />
@@ -25,16 +17,13 @@
 <link href="site_libs/font-awesome-5.0.13/css/fa-svg-with-js.css" rel="stylesheet" />
 <script src="site_libs/font-awesome-5.0.13/js/fontawesome-all.min.js"></script>
 <script src="site_libs/font-awesome-5.0.13/js/fa-v4-shims.min.js"></script>
-<!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-110538499-1"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
-
   gtag('config', 'UA-110538499-1');
 </script>
-
 <style type="text/css">code{white-space: pre;}</style>
 <style type="text/css">
   pre:not([class]) {
@@ -50,136 +39,59 @@ if (window.hljs) {
   }
 }
 </script>
-
-
-
 <style type="text/css">
-h1 {
-  font-size: 34px;
-}
-h1.title {
-  font-size: 38px;
-}
-h2 {
-  font-size: 30px;
-}
-h3 {
-  font-size: 24px;
-}
-h4 {
-  font-size: 18px;
-}
-h5 {
-  font-size: 16px;
-}
-h6 {
-  font-size: 12px;
-}
-.table th:not([align]) {
-  text-align: left;
-}
+h1 { font-size: 34px; }
+h1.title { font-size: 38px; }
+h2 { font-size: 30px; }
+h3 { font-size: 24px; }
+h4 { font-size: 18px; }
+h5 { font-size: 16px; }
+h6 { font-size: 12px; }
+.table th:not([align]) { text-align: left; }
 </style>
-
 <link rel="stylesheet" href="styles.css" type="text/css" />
-
 </head>
 
 <body>
 
 <style type = "text/css">
-.main-container {
-  max-width: 940px;
-  margin-left: auto;
-  margin-right: auto;
-}
-code {
-  color: inherit;
-  background-color: rgba(0, 0, 0, 0.04);
-}
-img {
-  max-width:100%;
-  height: auto;
-}
-.tabbed-pane {
-  padding-top: 12px;
-}
-.html-widget {
-  margin-bottom: 20px;
-}
-button.code-folding-btn:focus {
-  outline: none;
-}
+.main-container { max-width: 940px; margin-left: auto; margin-right: auto; }
+code { color: inherit; background-color: rgba(0, 0, 0, 0.04); }
+img { max-width:100%; height: auto; }
+.tabbed-pane { padding-top: 12px; }
+.html-widget { margin-bottom: 20px; }
+button.code-folding-btn:focus { outline: none; }
 </style>
 
-
 <style type="text/css">
-/* padding for bootstrap navbar */
-body {
-  padding-top: 60px;
-  padding-bottom: 40px;
-}
-/* offset scroll position for anchor links (for fixed navbar)  */
-.section h1 {
-  padding-top: 65px;
-  margin-top: -65px;
-}
-
-.section h2 {
-  padding-top: 65px;
-  margin-top: -65px;
-}
-.section h3 {
-  padding-top: 65px;
-  margin-top: -65px;
-}
-.section h4 {
-  padding-top: 65px;
-  margin-top: -65px;
-}
-.section h5 {
-  padding-top: 65px;
-  margin-top: -65px;
-}
-.section h6 {
-  padding-top: 65px;
-  margin-top: -65px;
-}
+body { padding-top: 60px; padding-bottom: 40px; }
+.section h1 { padding-top: 65px; margin-top: -65px; }
+.section h2 { padding-top: 65px; margin-top: -65px; }
+.section h3 { padding-top: 65px; margin-top: -65px; }
+.section h4 { padding-top: 65px; margin-top: -65px; }
+.section h5 { padding-top: 65px; margin-top: -65px; }
+.section h6 { padding-top: 65px; margin-top: -65px; }
 </style>
 
 <script>
-// manage active state of menu based on current page
 $(document).ready(function () {
-  // active menu anchor
   href = window.location.pathname
   href = href.substr(href.lastIndexOf('/') + 1)
   if (href === "")
     href = "index.html";
   var menuAnchor = $('a[href="' + href + '"]');
-
-  // mark it active
   menuAnchor.parent().addClass('active');
-
-  // if it's got a parent navbar menu mark it active as well
   menuAnchor.closest('li.dropdown').addClass('active');
 });
 </script>
 
-
 <div class="container-fluid main-container">
 
-<!-- tabsets -->
 <script>
 $(document).ready(function () {
   window.buildTabsets("TOC");
 });
 </script>
-
-<!-- code folding -->
-
-
-
-
-
 
 <div class="navbar navbar-default  navbar-fixed-top" role="navigation">
   <div class="container">
@@ -193,56 +105,29 @@ $(document).ready(function () {
     </div>
     <div id="navbar" class="navbar-collapse collapse">
       <ul class="nav navbar-nav">
-        <li>
-  <a href="index.html">
-    <span class="fa fa-home"></span>
-     
-    
-  </a>
-</li>
-<li>
-  <a href="Projects.html">My role <span class="fas fa-user-circle"></span></a>
-
-</li>
-<li>
-  <a href="research.html">Research  <span class="fa fa-book"></span></a>
-
-</li>
-<li>
-  <a href="Policy & Impact.html">Policy & Impact<span class="fa fa-book"></span></a>
-
-</li>
-<li>
-  <a href="teaching.html">Teaching <span class="fa fa-users"></span></a>
-</li>
-<li>
-  <a href="resources.html">Resources <span class="fa fa-code"></span> </a>
-</li>
-<li>
-  <a href="contact.html">Contact <span class="fa fa-address-book"></span></a>
-</li>
+        <li><a href="index.html"><span class="fa fa-home"></span></a></li>
+        <li><a href="Projects.html">My role <span class="fas fa-user-circle"></span></a></li>
+        <li><a href="research.html">Research  <span class="fa fa-book"></span></a></li>
+        <li><a href="Policy & Impact.html">Policy & Impact<span class="fa fa-book"></span></a></li>
+        <li><a href="teaching.html">Teaching <span class="fa fa-users"></span></a></li>
+        <li><a href="resources.html">Resources <span class="fa fa-code"></span> </a></li>
+        <li><a href="contact.html">Contact <span class="fa fa-address-book"></span></a></li>
       </ul>
-      <ul class="nav navbar-nav navbar-right">
-        
-      </ul>
-    </div><!--/.nav-collapse -->
-  </div><!--/.container -->
-</div><!--/.navbar -->
-
-<div class="fluid-row" id="header">
-
-
-
-<h1 class="title toc-ignore">Research</h1>
-
+      <ul class="nav navbar-nav navbar-right"></ul>
+    </div>
+  </div>
 </div>
 
+<div class="fluid-row" id="header">
+<h1 class="title toc-ignore">Research</h1>
+</div>
 
 <p><br></p>
 <div id="section" class="section level1 tabset tabset-fade tabset-pills">
 <h1></h1>
 <div id="recent" class="section level2">
 <h2>Recent</h2>
+
 <div id="paper" class="section level3">
 <h3><a href="https://www.ncub.co.uk/insight/unlocking-growth-the-impact-of-public-rd-spending-on-private-sector-investment-in-the-uk/" target="_blank"> Unlocking growth: The impact of public R&D spending on private sector investment in the UK  <span class="fa fa-file-pdf-o"></span></a></h3>
 <div id="WITH JOSH" class="section level4">
@@ -258,7 +143,7 @@ $(document).ready(function () {
   <h4>(with Rosalind Gill </a>)</h4>
  </a>
 <p> 
-Over 100 small and medium-sized enterprises (SMEs) and universities have collectively underscored the vital role of SME and university collaborations in NCUB’s new report, Arresting the decline: Unlocking the potential of university-SME interaction in the UK. This report demonstrates how essential university-SME partnerships are for driving groundbreaking research and development, leading to new products, services, and technologies. These innovations not only enhance productivity but also open up new markets and boost economic growth at both national and regional levels.
+Over 100 small and medium-sized enterprises (SMEs) and universities have collectively underscored the vital role of SME and university collaborations in NCUB's new report, Arresting the decline: Unlocking the potential of university-SME interaction in the UK. This report demonstrates how essential university-SME partnerships are for driving groundbreaking research and development, leading to new products, services, and technologies. These innovations not only enhance productivity but also open up new markets and boost economic growth at both national and regional levels.
 
 </p>
 <hr />
@@ -267,7 +152,7 @@ Over 100 small and medium-sized enterprises (SMEs) and universities have collect
 <div id="WITH JOSH" class="section level4">
   <h4><a href="https://onlinelibrary.wiley.com/doi/10.1111/pirs.12754" target="_blank"> Paper, 2023 </a></h4>
 <h4>(with Siepel, Hill and Rowe </a>)</h4>
-<p> This study aims to compare the drivers of clustering of rural and urban creative industries in England. We use pre-pandemic web-scraped data from 154,618 creative industry organizations in England, and use a novel technique to identify 71 distinct rural creative “microclusters” of geographically proximate creative firms. We then consider the role of place-based assets and agglomeration in the presence of microclusters at a micro-level geography and find that the determinants of microclustering are generally consistent between rural and urban areas. On that basis we argue that policies to support creative clusters may drive rural regional development.
+<p> This study aims to compare the drivers of clustering of rural and urban creative industries in England. We use pre-pandemic web-scraped data from 154,618 creative industry organizations in England, and use a novel technique to identify 71 distinct rural creative "microclusters" of geographically proximate creative firms. We then consider the role of place-based assets and agglomeration in the presence of microclusters at a micro-level geography and find that the determinants of microclustering are generally consistent between rural and urban areas. On that basis we argue that policies to support creative clusters may drive rural regional development.
 </p>
 <hr />
 <div id="paper" class="section level3">
@@ -275,7 +160,7 @@ Over 100 small and medium-sized enterprises (SMEs) and universities have collect
 <div id="WITH JOSH" class="section level4">
   <h4><a href="https://www.ncub.co.uk/insight/building-a-data-driven-picture-of-researcher-intersectoral-mobility-in-the-uk/" target="_blank"> Insight report, 2023 </a></h4>
 <h4>(with Rodriguez </a>)</h4>
-<p> This report is an integral component of the NCUB Researcher Career Mobility Taskforce’s evidence base. It provides valuable insights into intersectoral mobility in the UK. The report analyses data from diverse sources to understand how mobility varies across career stages, disciplines, technology sectors, and industries. The approach encompasses both macro and micro perspectives, incorporating national and international statistics on intersectoral mobility, as well as micro-level data from research and innovation professionals, businesses, and LinkedIn profiles. These insights deepen the understanding of mobility trends, aiding in the development of a comprehensive evidence framework.
+<p> This report is an integral component of the NCUB Researcher Career Mobility Taskforce's evidence base. It provides valuable insights into intersectoral mobility in the UK. The report analyses data from diverse sources to understand how mobility varies across career stages, disciplines, technology sectors, and industries. The approach encompasses both macro and micro perspectives, incorporating national and international statistics on intersectoral mobility, as well as micro-level data from research and innovation professionals, businesses, and LinkedIn profiles. These insights deepen the understanding of mobility trends, aiding in the development of a comprehensive evidence framework.
 </p>
 <hr />
 <div id="paper" class="section level3">
@@ -309,7 +194,7 @@ Markets.
 <div id="WITH JOSH" class="section level4">
   <h4><a href="https://www.ncub.co.uk/wp-content/uploads/2022/10/Graduate_entrepreneurship_v7.pdf" target="_blank"> Insight report, 2022 </a></h4>
 <h4>(with Rodriguez </a>)</h4>
-<p>This short insight paper provides a snapshot of the UK’s graduate entrepreneurs based on insights from the Graduate Outcomes Survey. Graduate entrepreneurs are defined as those that, within 15 months of graduating, either started their own businesses, considered themselves self-employed (freelancers), or are at the conceptual stage (i.e., developing a creative, artistic or professional portfolio). It shows that graduate entrepreneurs in the UK come from different backgrounds and locations. They tend to undertake entrepreneurship activities in the places they have an existing connection to. In other words, the majority of UK graduate entrepreneurs are local entrepreneurs (i.e., they were born and studied locally).</p>
+<p>This short insight paper provides a snapshot of the UK's graduate entrepreneurs based on insights from the Graduate Outcomes Survey. Graduate entrepreneurs are defined as those that, within 15 months of graduating, either started their own businesses, considered themselves self-employed (freelancers), or are at the conceptual stage (i.e., developing a creative, artistic or professional portfolio). It shows that graduate entrepreneurs in the UK come from different backgrounds and locations. They tend to undertake entrepreneurship activities in the places they have an existing connection to. In other words, the majority of UK graduate entrepreneurs are local entrepreneurs (i.e., they were born and studied locally).</p>
 <hr />
 <!-- --- -->
 <div id="paper" class="section level3">
@@ -330,7 +215,7 @@ rural microclustering and informal social networks. </p>
 <hr />
 <!-- --- -->
 <div id="paper" class="section level3">
-<h3><a href="https://www.pec.ac.uk/research-reports/creative-radar-2021-the-impact-of-covid-19-on-the-uks-creative-industries" target="_blank"> Creative Radar 2021: The impact of COVID-19 on the UK’s creative industries  <span class="fa fa-file-pdf-o"></span></a></h3>
+<h3><a href="https://www.pec.ac.uk/research-reports/creative-radar-2021-the-impact-of-covid-19-on-the-uks-creative-industries" target="_blank"> Creative Radar 2021: The impact of COVID-19 on the UK's creative industries  <span class="fa fa-file-pdf-o"></span></a></h3>
 <div id="WITH JOSH" class="section level4">
   <h4><a href="https://www.pec.ac.uk/research-reports/creative-radar-2021-the-impact-of-covid-19-on-the-uks-creative-industries" target="_blank"> Policy Report- PEC </a></h4>
 <h4>(with Siepel, Camerani,, Masucci, Casadei and Bloom. </a>)</h4>
@@ -338,11 +223,11 @@ rural microclustering and informal social networks. </p>
 <hr />
 <!-- --- -->
 <div id="paper" class="section level3">
-<h3><a href="https://www.pec.ac.uk/research-reports/creative-radar" target="_blank"> Creative Industries Radar: Mapping the UK’s creative clusters and microclusters  <span class="fa fa-file-pdf-o"></span></a></h3>
+<h3><a href="https://www.pec.ac.uk/research-reports/creative-radar" target="_blank"> Creative Industries Radar: Mapping the UK's creative clusters and microclusters  <span class="fa fa-file-pdf-o"></span></a></h3>
 <div id="WITH JOSH" class="section level4">
   <h4><a href="https://www.pec.ac.uk/research-reports/creative-radar" target="_blank"> Policy Report- PEC </a></h4>
 <h4>(with Siepel, Camerani,, Masucci, Casadei and Bloom. </a>)</h4>
-<p>This report introduces a new experimental approach to understanding the clustering of UK creative industries businesses. By using web scraped data of 200,000 creative industries businesses and organisations, we identify creative ‘microclusters’ at the street, neighbourhood, and town level. We then explore the UK’s creative clusters and microclusters in greater detail through a representative survey of 976 creative industries businesses. </p>
+<p>This report introduces a new experimental approach to understanding the clustering of UK creative industries businesses. By using web scraped data of 200,000 creative industries businesses and organisations, we identify creative 'microclusters' at the street, neighbourhood, and town level. We then explore the UK's creative clusters and microclusters in greater detail through a representative survey of 976 creative industries businesses. </p>
 <hr />
 <!-- --- -->
 <div id="paper" class="section level3">
@@ -350,7 +235,7 @@ rural microclustering and informal social networks. </p>
 <div id="with-ISABEL" class="section level4">
   <h4><a href="https://www.tandfonline.com/doi/abs/10.1080/13662716.2020.1801388" target="_blank"> Published in Industry and Innovation </a></h4>
 <h4>(with Isabel Busom</a>)</h4>
-<p>This paper investigates the impact of public support to business investment R&D over the different phases of the business cycle. It uses firm-level data for Spain during the period 2005 to 2014, thus covering an expansion, a recession and a recovery. Propensity score matching and differences in differences methods are combined to estimate the response of supported firms in each phase. Findings show that the profile of beneficiaries of public support did not change significantly over the cycle. Estimated effects depend on the stage of the cycle, the duration of support and the type of outcome indicator. The impact on total investment is positive during expansion years and null during the crisis years; when looking at firms’ allocation of human resources to R&D, the multiplier effect is higher during the crisis years; finally effects last longer for longer spells. Direct support allowed participating firms to allocate more of their employees’ time to R&D activities during the recession. This suggests that under some conditions the multiplier of public support to innovation may be higher during recessions. </p>
+<p>This paper investigates the impact of public support to business investment R&D over the different phases of the business cycle. It uses firm-level data for Spain during the period 2005 to 2014, thus covering an expansion, a recession and a recovery. Propensity score matching and differences in differences methods are combined to estimate the response of supported firms in each phase. Findings show that the profile of beneficiaries of public support did not change significantly over the cycle. Estimated effects depend on the stage of the cycle, the duration of support and the type of outcome indicator. The impact on total investment is positive during expansion years and null during the crisis years; when looking at firms' allocation of human resources to R&D, the multiplier effect is higher during the crisis years; finally effects last longer for longer spells. Direct support allowed participating firms to allocate more of their employees' time to R&D activities during the recession. This suggests that under some conditions the multiplier of public support to innovation may be higher during recessions. </p>
 <hr />
 <!-- --- -->
 </div>
@@ -366,12 +251,13 @@ rural microclustering and informal social networks. </p>
 </div>
 </div>
 <div id="make-or-buy-the-provision-of-indigent-defense-services-in-the-u.s." class="section level3">
-<h3><a href="files/Velez_chapter4.pdf" target="_blank">Duration dependence in R&D subsidization and Firm’s innovative behavior <span class="fa fa-file-pdf-o"></span></a></h3>
+<h3><a href="files/Velez_chapter4.pdf" target="_blank">Duration dependence in R&D subsidization and Firm's innovative behavior <span class="fa fa-file-pdf-o"></span></a></h3>
 <div id="policy-brief-by-the-california-policy-lab" class="section level4">
-<p>We investigate the determinants of R&D subsidization persistence and its impact on innovation results. The empirical analysis comprises three reduced-form equations which involve estimating survival rates of R&D subsidies and analyzing their effect on firms’ innovation results including the decision to stop innovation projects. First, we find that firms’ continuous engagement into R&D subsidies is a self-sustained process which is in part fueled by the accumulation of experience in getting funding even once unobserved heterogeneity is controlled for. Second, R&D subsidy persistence is positively correlated with innovation outcomes, including a lower probability of abandoning innovation projects. Results confirm some heterogeneity between SMEs and large firms. In particular, R&D subsidy persistence is associated with New-to-market innovation for SMEs but not for large firms. From the policy perspective, encouraging continuous use of R&D subsidies in SMEs seems to be particularly more appropriate in fostering innovation results which are far from the market (i.e., more radical innovation) and whose degree of market failure may be higher.</p>
+<p>We investigate the determinants of R&D subsidization persistence and its impact on innovation results. The empirical analysis comprises three reduced-form equations which involve estimating survival rates of R&D subsidies and analyzing their effect on firms' innovation results including the decision to stop innovation projects. First, we find that firms' continuous engagement into R&D subsidies is a self-sustained process which is in part fueled by the accumulation of experience in getting funding even once unobserved heterogeneity is controlled for. Second, R&D subsidy persistence is positively correlated with innovation outcomes, including a lower probability of abandoning innovation projects. Results confirm some heterogeneity between SMEs and large firms. In particular, R&D subsidy persistence is associated with New-to-market innovation for SMEs but not for large firms. From the policy perspective, encouraging continuous use of R&D subsidies in SMEs seems to be particularly more appropriate in fostering innovation results which are far from the market (i.e., more radical innovation) and whose degree of market failure may be higher.</p>
 <hr />
 </div>
 </div>
+
 <div id="PhD" class="section level2">
 <h2>PhD</h2>
 <h3><a href="files/Overview.pdf" target="_blank"> Three empirical essays on R&D subsidization and firm innovation <span class="fa fa-external-link"></span></a></h3>
@@ -380,8 +266,9 @@ rural microclustering and informal social networks. </p>
 <p>
 <a href="phd.html" target="_blank">Overview in a video</a>
 </p>
-</p>
 </div>
+</div>
+
 <h1></h1>
 <div id="past" class="section level2">
 <h2>Past</h2>
@@ -425,6 +312,17 @@ rural microclustering and informal social networks. </p>
 <hr />
 </div>
 </div>
+<div id="formation-of-new-firms-ordered-probit" class="section level3">
+<h3><a href="https://mpra.ub.uni-muenchen.de/60466/" target="_blank">The Formation of New Firms: An Ordered Probit Model Approach for Latin American and Caribbean Countries <span class="fa fa-external-link"></span></a></h3>
+<div id="with-jacobo-campo-robledo" class="section level4">
+<h4>(With Jacobo Campo Robledo)</h4>
+</div>
+<div id="mpra-working-paper-2014" class="section level4">
+<h4>MPRA Working Paper 60466, University Library of Munich, 2014 (also presented at the 14th EBES Conference, Barcelona)</h4>
+<p>Using an ordered probit approach, this paper examines the economic, institutional and social determinants of new firm formation across Latin American and Caribbean countries, contributing to the broader literature on the drivers of entrepreneurship and firm entry in the region.</p>
+<hr />
+</div>
+</div>
 <div id="international-tax-competition-zero-tax-rate-at-the-top-re-established" class="section level3">
 <h3><a href="https://ideas.repec.org/a/col/000107/007817.html" target="_blank">Determinantes de la inversión en innovación en el sector de Bogotá:estimaciones econométricas a nivel de la firma. <span class="fa fa-external-link"></span></a></h3>
 <div id="with-tomer-blumkin-and-efraim-sadka" class="section level4">
@@ -441,31 +339,21 @@ rural microclustering and informal social networks. </p>
   <p><small>© 2022. Jorge Velez .</small></p>
 </footer>
 
-<p><!-- <a href="trilnick2014whatdrives.pdf" target="_blank">draft-<i class="fa fa-file-pdf-o" aria-hidden="true"></i></a> --></p>
 </div>
 </div>
 </div>
-</div>
-
-
-
 
 </div>
 
 <script>
-
-// add bootstrap table styles to pandoc tables
 function bootstrapStylePandocTables() {
   $('tr.header').parent('thead').parent('table').addClass('table table-condensed');
 }
 $(document).ready(function () {
   bootstrapStylePandocTables();
 });
-
-
 </script>
 
-<!-- dynamically load mathjax for compatibility with self-contained -->
 <script>
   (function () {
     var script = document.createElement("script");
